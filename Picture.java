@@ -1,15 +1,12 @@
 /**
- * This class represents a simple picture. You can draw the picture using
- * the draw method. But wait, there's more: being an electronic picture, it
- * can be changed. You can set it to black-and-white display and back to
- * colors (only after it's been drawn, of course).
- *
- * This class was written as an early example for teaching Java with BlueJ.
- * 
+ * This is a basketball court with the squares representing the hooop
+ * the triangle representing the rim and a scene of 2 people playing 
+ * basketball outside at the park
+
  * @author  Elisha White 
  * @version 2022.09.10
  */
-public class Picture
+public class Picture extends Picture
 {
     private Square court;
     private Square window;
