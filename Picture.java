@@ -6,7 +6,7 @@
  * @author  Elisha White 
  * @version 2022.09.10
  */
-public class Picture extends Picture
+public class Picture 
 {
     private Square court;
     private Square window;
@@ -115,9 +115,12 @@ public class Picture extends Picture
     {
         court.changeColor("black");
          line1.changeColor("black");
-        //window.changeColor("white");
-        //roof.changeColor("black");
-        //sun.changeColor("black");
+         player.changeColor("white");
+         player2.changeColor("white");
+         hoop1.changeColor("white");
+         hoop2.changeColor("black");
+         rim.changeColor("white");
+         basketball.changeColor("white");
     }
 
     /**
@@ -126,9 +129,12 @@ public class Picture extends Picture
     public void setColor()
     {
         court.changeColor("green");
-        line1.changeColor("black");
-        //window.changeColor("black");
-        //roof.changeColor("green");
-        //sun.changeColor("yellow");
+         line1.changeColor("blue");
+         player.changeColor("yellow");
+         player2.changeColor("yellow");
+         hoop1.changeColor("white");
+         hoop2.changeColor("black");
+         rim.changeColor("white");
+         basketball.changeColor("white");
     }
 }
